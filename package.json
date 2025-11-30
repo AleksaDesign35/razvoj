@@ -1,0 +1,24 @@
+{
+  "name": "gentlemanstore-theme-watcher",
+  "version": "1.0.0",
+  "description": "FTP watcher for automatic WordPress child theme upload",
+  "scripts": {
+    "ftp:watch": "node scripts/ftp-watcher.js",
+    "ftp:debug": "node scripts/ftp-debug.js",
+    "ftp:test": "node scripts/ftp-test-upload.js"
+  },
+  "keywords": [
+    "sftp",
+    "watcher",
+    "wordpress"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "ssh2-sftp-client": "^10.0.3",
+    "basic-ftp": "^5.0.5",
+    "dotenv": "^16.3.1"
+  }
+}
+
